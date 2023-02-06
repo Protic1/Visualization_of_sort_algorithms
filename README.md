@@ -1,6 +1,6 @@
 This is a project made to visualize sort algorithms using Python and Pygame. All sorts of algorithms are made in separate files, so they could be upgraded or changed individually without breaking the code.
 Project is suposed to be run from terminal in which case it could be called with:
-'''console
+```console
 ...Visualisation_of_sort_algorithms>python main.py -h
 usage: sort_visualization [-h] [-len [ARRAY_LEN]] [-t [TYPE]] [-p [SHELL_PARAM]]
 
@@ -24,4 +24,4 @@ optional arguments:
                         3)Hibbard's increments:1,3,7,15,31,63,...
                         4)Papernov & Stasevich increment:1,3,5,9,17,33,65,...
                         5)Pratt:1,2,3,4,6,8,9,12,16,18,24,27,...
-'''
+```
