@@ -27,3 +27,4 @@ optional arguments:
 ```
 As it could be seen above some sort algorithms have their specific parameters, that could be set individualy. Also not in the code by ***default options of the parameters are 0, len of the array is 100.***
 For perfect visualisation maximum value for the array len is set to 500, if any bigger value is set for this parameter, visualisation won't work(performances will be calculated and displayed). By using scaling it could be changed and fixed to work for bigger data sets.
+If needed, file VISUALIZATION.py could be used to make pygame surface to be used for visualization of any data set needed, in that case using the method render_frame from class visualize_sort is necessary.
